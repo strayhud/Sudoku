@@ -1,0 +1,326 @@
+loading autotest/rails_rspec2
+style: RailsRspec2
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x10358a7b0>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x103417180>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x103063e58>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11561 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035bf460>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034ecc18>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x10339d290>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11292 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035bedf8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034ec8a8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x10339ccc8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.10966 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035bedf8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034ec8a8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x10339ccc8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11189 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035be358>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034ec088>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x10339a7c0>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.1142 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035bd9d0>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034eba20>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x103390d60>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11224 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035bd0c0>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034eb8e0>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x103390a68>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11172 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035b2e40>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034d79a8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x10331fed0>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11265 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035b3d18>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034dc9a8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x103325c18>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.10965 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035b3d18>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034dc8e0>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1033258f8>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11697 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+[32m.[0m[31mF[0m[32m.[0m[31mF[0m[32m.[0m[31mF[0m
+
+Failures:
+  1) PagesController GET 'home' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1035b3d18>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:13[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  2) PagesController GET 'contact' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x1034dc890>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:25[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+  3) PagesController GET 'about' should have the right title
+     [31mFailure/Error:[0m [31mresponse.should have_selector("title",[0m
+     [31mundefined method `has_selector?' for #<ActionController::TestResponse:0x103323580>[0m
+[90m     # ./spec/controllers/pages_controller_spec.rb:37[0m
+[90m     # /Library/Ruby/Gems/1.8/gems/activesupport-3.0.0/lib/active_support/dependencies.rb:239:in `inject'[0m
+
+Finished in 0.11482 seconds
+[31m6 examples, 3 failures[0m
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+
+
+--------------------------------------------------------------------------------
+
+bundle exec /Library/Ruby/Gems/1.8/gems/rspec-core-2.0.0.beta.22/bin/rspec '/opt/dev/rails/3/sudoku/spec/controllers/pages_controller_spec.rb'
+Interrupt a second time to quit
